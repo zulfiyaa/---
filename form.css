@@ -1,0 +1,66 @@
+.kb-advanced-form input:not([type="submit"]):not([type="button"]):not([type="checkbox"]):not([type="radio"]),
+.kb-advanced-form select,
+.kb-advanced-form textarea,
+.kb-advanced-form .kb-field {
+    border-radius: 30px !important;
+}
+
+.kb-advanced-form input:not([type="submit"]):not([type="button"]),
+.kb-advanced-form select,
+.kb-advanced-form textarea {
+    text-align: center !important;
+}
+
+.kb-advanced-form select option {
+    text-align: center;
+}
+
+.kb-advanced-form input,
+.kb-advanced-form select,
+.kb-advanced-form textarea,
+.kb-advanced-form select option {
+    color: #511F73 !important;
+}
+
+.kb-advanced-form input::placeholder,
+.kb-advanced-form textarea::placeholder {
+    color: #511F73 !important;
+    opacity: 0.7;
+}
+
+.kb-advanced-form input[type="file"]::file-selector-button {
+    border-radius: 30px;
+}
+
+.kb-adv-form-infield-type-input {
+    position: relative !important;
+}
+
+.kb-adv-form-infield-type-input .kb-adv-form-label {
+    position: absolute !important;
+    left: 15px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    pointer-events: none !important;
+    color: #511F73 !important;
+    background: transparent !important;
+}
+
+.kb-adv-form-infield-type-input input:focus + .kb-adv-form-label,
+.kb-adv-form-infield-type-input input:not(:placeholder-shown) + .kb-adv-form-label {
+    display: none !important;
+}
+
+.kb-advanced-form input[type="file"] {
+    color: #511F73 !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.kb-advanced-form select {
+    color: #511F73 !important;
+}

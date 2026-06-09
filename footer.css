@@ -1,0 +1,22 @@
+.footer-html-inner p {
+    color: #ffffff !important;
+}
+
+.site-footer p,
+.site-footer .widget_text,
+.site-footer .textwidget,
+.site-footer .textwidget p {
+    color: #ffffff !important;
+    font-size: 16px !important;
+}
+
+.site-info-inner .widget_text .textwidget p,
+.site-info-inner .widget_text .textwidget {
+    color: #E4AFFF !important;
+    font-weight: 400 !important;
+}
+
+.footer-html-inner p {
+    color: #E4AFFF !important;
+    font-weight: 400 !important;
+}
